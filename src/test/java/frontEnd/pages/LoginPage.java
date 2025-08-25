@@ -1,4 +1,4 @@
-package pages;
+package frontEnd.pages;
 
 import loggerUtility.LoggerUtility;
 import org.openqa.selenium.WebDriver;
@@ -30,8 +30,8 @@ public class LoginPage extends BasePage {
         LoggerUtility.infoLog("The user enters the password: "+passwordValue);
         loginButton.click();
         LoggerUtility.infoLog("The user click on the login button");
-        elementHelper.ultraJSElement(loginButton);
-        LoggerUtility.infoLog("The user click on the login button");
+        //elementHelper.ultraJSElement(loginButton);
+        //LoggerUtility.infoLog("The user click on the login button");
 
     }
     public void validateLoginMethod(){
