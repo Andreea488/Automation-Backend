@@ -6,8 +6,10 @@ import io.restassured.specification.RequestSpecification;
 import org.json.JSONObject;
 import org.testng.Assert;
 import org.testng.annotations.Test;
+import pages.LoginPage;
+import sharedData.SharedData;
 
-public class DeleteUserTest {
+public class DeleteUserTest extends SharedData {
     @Test
     public void testMethod(){
         System.out.println("=== Step 1: Create User ===");
@@ -40,19 +42,19 @@ public class DeleteUserTest {
 
         String token = response.path("token");
 
-//        System.out.println("=== Step 3: Get User ===");
-//        requestSpecification.header("Authorization", "Bearer "+token);
-//        response = requestSpecification.get("/Account/v1/User/"+userId);
-//
-//        System.out.println(response.getStatusLine());
-//        response.getBody().prettyPrint();
-//
-//        Assert.assertEquals(response.getStatusCode(),200);
-//        Assert.assertTrue(response.getStatusLine().contains("OK"));
-
-
-        System.out.println("=== Step 4: Delete User ===");
+        System.out.println("=== Step 4: Get User ===");
         requestSpecification.header("Authorization", "Bearer "+token);
+        response = requestSpecification.get("/Account/v1/User/"+userId);
+
+        System.out.println(response.getStatusLine());
+        response.getBody().prettyPrint();
+
+        Assert.assertEquals(response.getStatusCode(),200);
+        Assert.assertTrue(response.getStatusLine().contains("OK"));
+
+
+        System.out.println("=== Step 3: Delete User ===");
+//        requestSpecification.header("Authorization", "Bearer "+token);
         response = requestSpecification.delete("/Account/v1/User/"+userId);
 
         System.out.println(response.getStatusLine());
@@ -60,6 +62,20 @@ public class DeleteUserTest {
 
         Assert.assertEquals(response.getStatusCode(),204);
         Assert.assertTrue(response.getStatusLine().contains("No Content"));
+
+        System.out.println("=== Step 5: Get User ===");
+  //      requestSpecification.header("Authorization", "Bearer "+token);
+        response = requestSpecification.get("/Account/v1/User/"+userId);
+
+        System.out.println(response.getStatusLine());
+        response.getBody().prettyPrint();
+
+        Assert.assertEquals(response.getStatusCode(),401);
+        Assert.assertTrue(response.getStatusLine().contains("Unauthorized"));
+
+        LoginPage loginPage = new LoginPage(getDriver());
+        loginPage.loginMethod(requestBody.get("userName").toString(),requestBody.get("password").toString());
+        loginPage.validateLoginMethod();
 
 
     }

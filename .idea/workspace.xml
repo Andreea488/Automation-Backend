@@ -5,23 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="67999771-69b0-4b4e-bce0-41d0cf47b59f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/helpers/ElementHelper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/loggerUtility/LoggerUtility.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pages/BasePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pages/LoginPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/sharedData/Browser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/sharedData/ChromeBrowser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/sharedData/EdgeBrowser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/sharedData/SharedData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/CreateUserTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/DeleteUserTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/log4j2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/GetAllBooksTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/GetAllBooksTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/LoginPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/DeleteUserTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/DeleteUserTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,30 +52,30 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Maven.AutomationBackend [clean,install].executor": "Run",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "TestNG.CreateUserTest.testMethod.executor": "Run",
-    "TestNG.D:/AutomationBackend/target/testng.xml.executor": "Debug",
-    "TestNG.D:/AutomationBackend/testng.xml.executor": "Run",
-    "TestNG.DeleteUserTest.testMethod.executor": "Run",
-    "TestNG.GetAllBooksTest.testMethod.executor": "Run",
-    "full.screen.before.presentation.mode": "false",
-    "git-widget-placeholder": "master",
-    "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "D:/AutomationBackend"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Maven.AutomationBackend [clean,install].executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;TestNG.CreateUserTest.testMethod.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.D:/AutomationBackend/target/testng.xml.executor&quot;: &quot;Debug&quot;,
+    &quot;TestNG.D:/AutomationBackend/testng.xml.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.DeleteUserTest.testMethod.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.GetAllBooksTest.testMethod.executor&quot;: &quot;Run&quot;,
+    &quot;full.screen.before.presentation.mode&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/AutomationBackend&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\AutomationBackend\src\test" />
       <recent name="D:\AutomationBackend\src" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.CreateUserTest.testMethod">
+  <component name="RunManager" selected="TestNG.DeleteUserTest.testMethod">
     <configuration name="CreateUserTest.testMethod" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="AutomationBackend (1)" />
       <extension name="coverage">
@@ -165,9 +151,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.DeleteUserTest.testMethod" />
         <item itemvalue="TestNG.CreateUserTest.testMethod" />
         <item itemvalue="TestNG.D:/AutomationBackend/testng.xml" />
-        <item itemvalue="TestNG.DeleteUserTest.testMethod" />
         <item itemvalue="TestNG.D:/AutomationBackend/target/testng.xml" />
         <item itemvalue="TestNG.GetAllBooksTest.testMethod" />
       </list>

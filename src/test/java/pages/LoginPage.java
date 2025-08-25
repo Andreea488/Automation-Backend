@@ -4,6 +4,7 @@ import loggerUtility.LoggerUtility;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
+import org.testng.Assert;
 
 public class LoginPage extends BasePage {
 
@@ -17,6 +18,8 @@ public class LoginPage extends BasePage {
     private WebElement passwordElement;
     @FindBy ( id = "login")
     private WebElement loginButton;
+    @FindBy (id = "name")
+    private WebElement textElement;
 
 
 
@@ -27,8 +30,17 @@ public class LoginPage extends BasePage {
         LoggerUtility.infoLog("The user enters the password: "+passwordValue);
         loginButton.click();
         LoggerUtility.infoLog("The user click on the login button");
+        elementHelper.ultraJSElement(loginButton);
+        LoggerUtility.infoLog("The user click on the login button");
+
+    }
+    public void validateLoginMethod(){
+        Assert.assertEquals(textElement.getText(),"Invalid username or password!");
     }
 
 
 
-}
+
+
+
+    }
