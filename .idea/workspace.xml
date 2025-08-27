@@ -5,19 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="67999771-69b0-4b4e-bce0-41d0cf47b59f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/backEnd/ResponseCodes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/backEnd/client/RestClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/backEnd/endPoints/EndPoints.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/backEnd/services/AccountService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/backEnd/services/BookStoreService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pages/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/frontEnd/pages/BasePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pages/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/frontEnd/pages/LoginPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/sharedData/Browser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/frontEnd/sharedData/Browser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/sharedData/ChromeBrowser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/frontEnd/sharedData/ChromeBrowser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/sharedData/EdgeBrowser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/frontEnd/sharedData/EdgeBrowser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/sharedData/SharedData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/frontEnd/sharedData/SharedData.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/CreateUserTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/CreateUserTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/backEnd/endPoints/EndPoints.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/backEnd/endPoints/EndPoints.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/tests/DeleteUserTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/DeleteUserTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/GetAllBooksTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/GetAllBooksTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

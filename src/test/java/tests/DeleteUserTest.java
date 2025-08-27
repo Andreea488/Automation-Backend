@@ -13,8 +13,9 @@ public class DeleteUserTest extends SharedData {
         String username = "VirgilTesting" + System.currentTimeMillis();
         String password = "Parola123!";
 
-        String userId = accountService.createUser(username, password);
-        String token = accountService.generateToken(username, password);
+//se poate folosi si var in loc de String si face acelasi lucru
+        var userId = accountService.createUser(username, password);
+        var token = accountService.generateToken(username, password);
 
         accountService.getUser(userId, token);
         accountService.deleteUser(userId, token);
